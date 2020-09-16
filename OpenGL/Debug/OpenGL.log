@@ -1,0 +1,28 @@
+﻿  Application.cpp
+  ErrorHandle.cpp
+  IndexBuffer.cpp
+  Renderer.cpp
+  Shader.cpp
+  Test.cpp
+  TestClearColor.cpp
+  TestColor3D.cpp
+  TestLighting.cpp
+  TestTexture2D.cpp
+  Texture.cpp
+  glm.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_glfw.cpp
+  imgui_impl_opengl3.cpp
+  imgui_widgets.cpp
+  stb_image.cpp
+  VertexArray.cpp
+  Generating Code...
+  Compiling...
+  VertexBuffer.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'glew_static.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\MyProjects\OpenGL\OpenGL\Debug\glew_static.pdb'; linking object as if no debug info
+  OpenGL.vcxproj -> C:\MyProjects\OpenGL\OpenGL\Debug\OpenGL.exe
