@@ -114,6 +114,6 @@ namespace test
     {
         ImGui::ColorEdit4("Ambient Light Color", m_AmbientLightColor);
         ImGui::ColorEdit4("Diffuse Light Color", m_DiffuseLightColor);
-        ImGui::SliderFloat4("Diffuse Light Position", m_DiffuseLightPosition, 1.0f, 20.0f);
+        ImGui::SliderFloat4("Diffuse Light Position", m_DiffuseLightPosition, -20.0f, 20.0f);
     }
 }
